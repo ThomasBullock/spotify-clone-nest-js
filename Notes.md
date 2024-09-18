@@ -9,3 +9,13 @@ Installed [REST client](https://marketplace.visualstudio.com/items?itemName=huma
 - finish typescript 😄
 - find github repo for tutorial ✅
 - understand REST client ext ✅
+
+### 18 Sept
+
+https://youtu.be/sFnAHC9lLaw?feature=shared&t=2477
+Added songs endpoint DTO and validation
+Half way through logger middleware
+
+#### TODO
+
+- finish typescript 😄
