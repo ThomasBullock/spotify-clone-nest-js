@@ -6,6 +6,6 @@ Installed [REST client](https://marketplace.visualstudio.com/items?itemName=huma
 
 #### TODO
 
-- finish typescript
-- find github repo for tutorial
-- understand REST client ext
+- finish typescript 😄
+- find github repo for tutorial ✅
+- understand REST client ext ✅
