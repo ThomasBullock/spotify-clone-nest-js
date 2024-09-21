@@ -19,3 +19,17 @@ Half way through logger middleware
 #### TODO
 
 - finish typescript 😄
+
+### 21 Sept
+
+https://youtu.be/sFnAHC9lLaw?feature=shared&t=3749
+
+Add error handling and piped values ehg turning a string param into a number and custom error responses
+Started with providers including extended syntax for Standard Providers
+Did value providers suppling a mockData as used in testing setups
+
+#### TODO
+
+- finish typescript 😄
+- revise the original Nest JS principals video
+- read accompanying PDF on providers!
