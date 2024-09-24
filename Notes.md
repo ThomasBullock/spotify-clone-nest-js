@@ -30,6 +30,32 @@ Did value providers suppling a mockData as used in testing setups
 
 #### TODO
 
-- finish typescript 😄
-- revise the original Nest JS principals video
+- finish typescript 😄 ✅
+- revise the original Nest JS principals video ✅
 - read accompanying PDF on providers!
+
+### 22 Sept
+
+https://youtu.be/sFnAHC9lLaw?feature=shared&t=4091
+
+####TODO
+Follow up on typescript decorators
+
+### 24 Sept
+
+To undo the changes made by those commands, you can simply remove the file you created in the /etc/paths.d directory. Here’s how to do that:
+
+Open Terminal.
+
+Remove the PostgreSQL paths file:
+
+bash
+Copy code
+sudo rm /etc/paths.d/postgresapp
+Check if the file has been removed (optional): You can list the contents of the /etc/paths.d directory to ensure the file is gone:
+
+bash
+Copy code
+ls /etc/paths.d
+Summary
+By removing the postgresapp file from /etc/paths.d, you effectively undo the changes made by the original command. No further steps are needed.

@@ -1,3 +1,6 @@
+### SEND FETCH / REQUEST
+http://localhost:3000/
+
 ### SEND FETCH SONGS REQUEST
 GET http://localhost:3000/songs
 
@@ -11,8 +14,9 @@ Content-Type: application/json
 {
     "title": "Lasting Lover",
     "artists": ["sigla"],
-    "releaseDate": "2022-09-29",
-    "duration": "02:34"
+    "releasedDate": "2022-09-29",
+    "duration": "02:34",
+    "lyrics": "I Dunno what I'm singing about no doubt its a load of crap anyway..."
 }
 
 ### SEND UPDATE SONG REQUEST

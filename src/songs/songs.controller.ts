@@ -5,6 +5,7 @@ import {
   Get,
   HttpException,
   HttpStatus,
+  Inject,
   Param,
   ParseIntPipe,
   Post,
@@ -12,13 +13,23 @@ import {
 } from '@nestjs/common';
 import { SongsService } from './songs.service';
 import { CreateSongDTO } from './dto/create-song-dto';
+import { Connection } from 'src/common/constants/connection';
+import { Song } from './song.entity';
 
 @Controller('songs')
 export class SongsController {
-  constructor(private songsService: SongsService) {}
+  constructor(
+    private songsService: SongsService,
+    @Inject('CONNECTION')
+    private connection: Connection,
+  ) {
+    console.log(
+      `THIS IS CONNNECTION STRING ${this.connection.CONNECTION_STRING}`,
+    );
+  }
 
   @Get()
-  findAll() {
+  findAll(): Promise<Song[]> {
     try {
       return this.songsService.findAll();
     } catch (error) {
@@ -40,6 +51,7 @@ export class SongsController {
     ) // option 2 - custom error status code
     id: number,
   ) {
+    console.log(this.connection.CONNECTION_STRING); // I have access cos this is injected
     return `fetch one song based on the id ${typeof id}`;
   }
 
