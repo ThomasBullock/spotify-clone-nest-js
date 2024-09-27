@@ -43,6 +43,8 @@ Follow up on typescript decorators
 
 ### 24 Sept
 
+Connecting to postgres db is not in vid follow book !
+
 To undo the changes made by those commands, you can simply remove the file you created in the /etc/paths.d directory. Here’s how to do that:
 
 Open Terminal.
@@ -59,3 +61,11 @@ Copy code
 ls /etc/paths.d
 Summary
 By removing the postgresapp file from /etc/paths.d, you effectively undo the changes made by the original command. No further steps are needed.
+
+Upto page 64
+
+### 26 Sept
+
+Added findbyId, delete (tested)
+And Update - this needs to be tested with a proper request body ✅
+All endpoints done and tesedt including pagination!
