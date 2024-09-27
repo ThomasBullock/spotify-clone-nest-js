@@ -1,4 +1,13 @@
-import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import { Artist } from 'src/artists/artist.entity';
+import { Playlist } from 'src/playlists/playlist.entity';
+import {
+  Column,
+  Entity,
+  JoinTable,
+  ManyToMany,
+  ManyToOne,
+  PrimaryGeneratedColumn,
+} from 'typeorm';
 
 @Entity('songs')
 export class Song {
@@ -8,10 +17,6 @@ export class Song {
 
   @Column()
   title: string;
-
-  // For shorter text varchar type is suitable
-  @Column('varchar', { array: true })
-  artists: string[];
 
   @Column('date')
   releasedDate: Date;
@@ -23,4 +28,21 @@ export class Song {
   // To accommodate a long string or text, the text type in Postgres is appropriate
   @Column('text')
   lyrics: string;
+
+  // For shorter text varchar type is suitable
+  // @Column('varchar', { array: true })
+  // artists: string[];
+
+  @ManyToMany(() => Artist, (artist) => artist.songs, { cascade: true })
+  // Include @JoinTable() annotation, which is mandatory for @ManyToMany relationships. *
+  @JoinTable({ name: 'song_artists' })
+  artists: Artist[];
+
+  /**
+   * Many songs can belong to playlist for each unique user
+   */
+  @ManyToOne(() => Playlist, (playlist) => playlist.songs)
+  playList: Playlist;
 }
+
+// * Optionally, rename the JoinTable to create a table named songs_artists in the database. This table will house the primary keys from both the songs and artists tables, functioning as foreign keys.

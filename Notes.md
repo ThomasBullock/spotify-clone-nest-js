@@ -69,3 +69,8 @@ Upto page 64
 Added findbyId, delete (tested)
 And Update - this needs to be tested with a proper request body ✅
 All endpoints done and tesedt including pagination!
+
+### 27th Sept
+
+TODO
+typeORM tutorial https://youtu.be/JaTbzPcyiOE?feature=shared&t=121
