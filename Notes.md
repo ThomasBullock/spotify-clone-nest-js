@@ -74,3 +74,6 @@ All endpoints done and tesedt including pagination!
 
 TODO
 typeORM tutorial https://youtu.be/JaTbzPcyiOE?feature=shared&t=121
+
+Completed Ch 5 / 6
+https://youtu.be/sFnAHC9lLaw?feature=shared&t=9837
