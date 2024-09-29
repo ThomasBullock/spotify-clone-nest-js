@@ -72,8 +72,20 @@ All endpoints done and tesedt including pagination!
 
 ### 27th Sept
 
-TODO
+#### TODO
+
 typeORM tutorial https://youtu.be/JaTbzPcyiOE?feature=shared&t=121
 
 Completed Ch 5 / 6
 https://youtu.be/sFnAHC9lLaw?feature=shared&t=9837
+
+### 30th Sept
+
+https://youtu.be/sFnAHC9lLaw?feature=shared&t=10806
+
+Add Auth module and user signup
+Up to page 93
+
+#### TODO
+
+typeORM tutorial https://youtu.be/JaTbzPcyiOE?feature=shared&t=121
