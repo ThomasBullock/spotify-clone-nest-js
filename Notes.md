@@ -89,3 +89,13 @@ Up to page 93
 #### TODO
 
 typeORM tutorial https://youtu.be/JaTbzPcyiOE?feature=shared&t=121
+
+### Oct 1
+
+https://youtu.be/sFnAHC9lLaw?feature=shared&t=11280
+
+Added Login and tested
+
+#### TODO
+
+typeORM tutorial https://youtu.be/JaTbzPcyiOE?feature=shared&t=121
