@@ -99,3 +99,19 @@ Added Login and tested
 #### TODO
 
 typeORM tutorial https://youtu.be/JaTbzPcyiOE?feature=shared&t=121
+
+### Oct 12
+
+Module 7
+Finished JWT Auth guard - chapter 3
+Role-based Authentication chapter 4
+
+Was caught forgetting exports from Artists module! :)
+
+Upto What is Two Factor Authentication
+Page 104
+https://youtu.be/sFnAHC9lLaw?feature=shared&t=13608
+
+#### TODO
+
+typeORM tutorial https://youtu.be/JaTbzPcyiOE?feature=shared&t=121
